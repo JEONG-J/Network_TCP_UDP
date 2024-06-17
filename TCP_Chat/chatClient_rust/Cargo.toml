@@ -1,0 +1,13 @@
+[package]
+name = "chatClient_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1"
+ctrlc = "3.1.9"
+
+[[bin]]
+name = "chatClient_rust"
+path = "src/chatClient.rs"
