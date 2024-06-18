@@ -34,8 +34,8 @@ func startMenu() int {
 
 func main() {
 	// Server address and port
-	serverName := "nsl2.cau.ac.kr"
-	serverPort := "25914"
+	serverName := "localhost"
+	serverPort := "8080"
 
 	// Establish a TCP connection to the server
 	conn, err := net.Dial("tcp", serverName+":"+serverPort)

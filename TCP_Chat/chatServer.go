@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	port = "25914" // Server port configuration
+	port = "8080" // Server port configuration
 )
 
 var (

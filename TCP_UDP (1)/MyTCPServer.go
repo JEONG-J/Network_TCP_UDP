@@ -75,7 +75,7 @@ var requestCount int    // Count the number of requests
 
 func main() {
 	startTime = time.Now() // Record the start time when the server starts
-	serverPort := "25914"  // Define the server port
+	serverPort := "8080"  // Define the server port
 
 	/* Start listening for incomming TCP connections*/
 	listener, err := net.Listen("tcp", ":"+serverPort)

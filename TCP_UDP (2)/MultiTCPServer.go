@@ -104,7 +104,7 @@ func handleConnection(conn net.Conn, clientInfo *ClientInfo) {
 
 func main() {
 	startTime = time.Now()
-	serverPort := "25914"
+	serverPort := "8080"
 
 	// Start listening for TCP connections
 	listener, err := net.Listen("tcp", ":"+serverPort)

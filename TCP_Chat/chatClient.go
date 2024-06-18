@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	serverAddress = "nsl2.cau.ac.kr:25914" // Server address and port settings
+	serverAddress = "localhost:8080" // Server address and port settings
 )
 
 func main() {
